@@ -1,0 +1,36 @@
+.header {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    background-color: $color-blue-corporativo;
+    padding: 5px 0px;
+
+    &__figure {
+        height: 100%;
+    }
+
+    &__img {
+        height: 100%;
+        width: 50px;
+    }
+
+    &__text {
+        margin-left: 5px;
+        font-size: 30px;
+        -webkit-text-stroke: .5px $color-white-corporativo;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &--red {
+            color: $color-red-corporativo
+        }
+
+        &--blue {
+            color: $color-blue-corporativo
+        }
+    }
+}
